@@ -61,3 +61,6 @@ class YourController extends Controller
   }
 }
 ```
+
+#### For more information
+- You can check more configuration at front end at - https://github.com/pqina/filepond
