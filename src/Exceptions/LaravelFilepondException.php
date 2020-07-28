@@ -1,6 +1,6 @@
 <?php
 
-namespace Cnviradiya\LaravelFilepond\Exceptions;
+namespace cnviradiya\LaravelFilepond\Exceptions;
 
 use Throwable;
 

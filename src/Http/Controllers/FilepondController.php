@@ -1,11 +1,11 @@
 <?php
 
-namespace Cnviradiya\LaravelFilepond\Http\Controllers;
+namespace cnviradiya\LaravelFilepond\Http\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
-use Cnviradiya\LaravelFilepond\Filepond;
+use cnviradiya\LaravelFilepond\Filepond;
 
 class FilepondController extends BaseController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cnviradiya\LaravelFilepond;
+namespace cnviradiya\LaravelFilepond;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -34,7 +34,7 @@ class LaravelFilepondServiceProvider extends ServiceProvider
     {
         Route::group([
             'prefix' => 'filepond',
-            'namespace' => 'Cnviradiya\LaravelFilepond\Http\Controllers',
+            'namespace' => 'cnviradiya\LaravelFilepond\Http\Controllers',
             'middleware' => config('filepond.middleware', null),
         ], function () {
             $this->loadRoutesFrom(__DIR__.'/../routes/web.php');

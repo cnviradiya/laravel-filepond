@@ -1,10 +1,10 @@
 <?php
 
-namespace Cnviradiya\LaravelFilepond;
+namespace cnviradiya\LaravelFilepond;
 
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Str;
-use Cnviradiya\LaravelFilepond\Exceptions\InvalidPathException;
+use cnviradiya\LaravelFilepond\Exceptions\InvalidPathException;
 
 class Filepond {
     /**

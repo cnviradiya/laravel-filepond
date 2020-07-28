@@ -1,5 +1,5 @@
 {
-    "name": "Cnviradiya/laravel-filepond",
+    "name": "cnviradiya/laravel-filepond",
     "description": "Laravel module for the filepond uploads",
     "license": "MIT",
     "keywords": [
@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Cnviradiya\\LaravelFilepond\\": "src/"
+            "cnviradiya\\LaravelFilepond\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cnviradiya\\LaravelFilepond\\LaravelFilepondServiceProvider"
+                "cnviradiya\\LaravelFilepond\\LaravelFilepondServiceProvider"
             ]
         }
     },

@@ -5,7 +5,7 @@ Laravel module for the filepond
 ```composer require cnviradiya/laravel-filepond```
 
 #### Publish configuration file for the package
-```php artisan vendor:publish --provider="Cnviradiya\LaravelFilepond\LaravelFilepondServiceProvider"```
+```php artisan vendor:publish --provider="cnviradiya\LaravelFilepond\LaravelFilepondServiceProvider"```
 
 #### Frontend setup
 ```
@@ -41,7 +41,7 @@ Laravel module for the filepond
 ```
 <?php
 ...
-use Cnviradiya\LaravelFilepond\Filepond;
+use cnviradiya\LaravelFilepond\Filepond;
 
 class YourController extends Controller
 {
